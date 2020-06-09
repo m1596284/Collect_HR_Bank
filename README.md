@@ -3,10 +3,10 @@ Collect information from the website of human resources bank
 
 1. Change key word to your target position.
 2. Run the py and it will start:
-  1. Counting how many available jobs and their company in current page.
-  2. Send "GET" request for each page of job then parsing the infromation.
-    1. Download the woff file and convert it to xml format.
-    2. Indexing each unicode in xml table.
+     Counting how many available jobs and their company in current page.
+         Send "GET" request for each page of job then parsing the infromation.
+            Download the woff file and convert it to xml format.
+            Indexing each unicode in xml table.
     3. Identify the signature of each encoding word.
     4. Use code table to decode those word to get mail and phone.
   3. Send "GET" request for each page of company then parsing the infromation.
