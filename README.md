@@ -15,3 +15,6 @@ Collect information from the website of human resources bank
       * Indexing the edge of ecah number.
       * Use code table to decode those word to get phone number.
    4. Output data to txt file.
+<div style="display:flex;">
+    <img name="iQTyKz1" src="https://i.imgur.com/iQTyKz1.jpg" width="300"/> 
+</div>
