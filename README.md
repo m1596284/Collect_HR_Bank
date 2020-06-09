@@ -16,5 +16,5 @@ Collect information from the website of human resources bank
       * Use code table to decode those word to get phone number.
    4. Output data to txt file.
 <div style="display:flex;">
-    <img name="csvGbwR" src="https://imgur.com/csvGbwR.jpg" width="300"/> 
+    <img name="csvGbwR" src="https://imgur.com/csvGbwR.jpg" width="1000"/> 
 </div>
