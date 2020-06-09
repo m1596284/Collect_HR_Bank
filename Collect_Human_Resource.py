@@ -11,9 +11,10 @@ from PIL import Image
 import os
 pyPath = os.path.dirname(os.path.abspath(__file__))
 print(pyPath)
+Key_word = "電話行銷人員"
 for xxXxx in range(0,150):
     print("Now is Page: " + str(xxXxx))
-    url_now = "https://www.1111.com.tw/search/job?ks=%E9%9B%BB%E8%A9%B1%E8%A1%8C%E9%8A%B7%E4%BA%BA%E5%93%A1&fs=1&page=" + str(xxXxx)
+    url_now = "https://www.1111.com.tw/search/job?ks=" + Key_word + "&fs=1&page=" + str(xxXxx)
     r = requests.get(url_now)
     soup = BeautifulSoup(r.text, 'html.parser')
     text_list = soup.find_all('div',class_="position0")
